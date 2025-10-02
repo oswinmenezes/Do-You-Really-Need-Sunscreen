@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Do You Really Need Sunscreen?</h1>
+    <form action="/result" method="POST">
+        <label>Enter City Name:</label><br/>
+        <input type="text"  name="usercity" placeholder="Enter City Name"><br/>
+        <h2>OR</h2>
+        <label>Enter Lattitude:</label><br/>
+        <input type="text"  name="lattitude" placeholder="Enter Lattitude (-90 to +90)"><br/>
+        <label>Enter Longitude:</label><br/>
+        <input type="text" name="longitude" placeholder="Enter Longitude (-180 to +180)"><br/>
+        <input type="submit" value="Check" class="btn"><br/>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/project.js"></script>
+</body>
+</html>
